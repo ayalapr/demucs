@@ -33,10 +33,10 @@ from demucs.pretrained import SOURCES
 from demucs.wav import build_metadata, Wavset, _get_musdb_valid
 
 
-MUSDB_PATH = '/checkpoint/defossez/datasets/musdbhq'
+MUSDB_PATH = '/content/drive/MyDrive/masters/AutoMixing/musdb18hq' #PATH IN MY DRIVE [ayala]
 EXTRA_WAV_PATH = "/checkpoint/defossez/datasets/allstems_44"
 # WARNING: OUTPATH will be completely erased.
-OUTPATH = Path.home() / 'tmp/demucs_mdx/automix_musdb/'
+OUTPATH = Path.home() / '/content/drive/MyDrive/masters/AutoMixing/automix_musdb/' #PATH IN MY DRIVE [ayala]
 CACHE = Path.home() / 'tmp/automix_cache'  # cache BPM and pitch information.
 CHANNELS = 2
 SR = 44100
