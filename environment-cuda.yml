@@ -11,6 +11,7 @@ dependencies:
   - cudatoolkit>=10
   - torchaudio>=0.8
   - tqdm>=4.36
+  - librosa>=0.8.1
   - pip
   - pip:
     - dora-search
